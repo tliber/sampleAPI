@@ -21,5 +21,4 @@ class Event < ApplicationRecord
   validates :start, presence: true
   validates :name, presence: true
   validates :repeat, inclusion: { in: %w(daily weekly monthly quarterly) }
-
 end
