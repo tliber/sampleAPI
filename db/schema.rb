@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2018_12_10_222304) do
     t.text "name"
     t.text "location"
     t.text "context"
+    t.text "repeat"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

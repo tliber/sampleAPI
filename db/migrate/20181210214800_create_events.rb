@@ -6,6 +6,7 @@ class CreateEvents < ActiveRecord::Migration[5.2]
       t.text :name
       t.text :location
       t.text :context
+      t.text :repeat
 
       t.timestamps
     end

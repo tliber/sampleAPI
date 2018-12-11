@@ -8,6 +8,7 @@
 #  name       :text
 #  location   :text
 #  context    :text
+#  repeat     :text
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
@@ -15,7 +16,6 @@
 require 'test_helper'
 
 class EventTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "validations" do
+  end
 end
