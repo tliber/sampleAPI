@@ -5,11 +5,13 @@ class EventsController < ApplicationController
   end
 
   def destroy
-    puts 'Destroy'
+    event = Event.destroy(permitted_params['id'])
+    render status: 200, message: 'destoyed successfully'
   end
 
   def index
-    puts 'Index'
+    event = Event.find(permitted_params['id'])
+    render status: 200, json: event
   end
 
   def update
@@ -17,7 +19,8 @@ class EventsController < ApplicationController
   end
 
   def show
-    puts 'show'
+    event = Event.find(permitted_params['id'])
+    render status: 200, json: event.as_json
   end
 
   private

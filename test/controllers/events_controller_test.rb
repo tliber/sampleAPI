@@ -1,34 +1,41 @@
 require 'test_helper'
 
 class EventsControllerTest < ActionDispatch::IntegrationTest
+  start_time = Time.now
+  event_name = 'event_name'
+  repeat = 'daily'
+
   test "creates event" do
     user = User.create(name: 'Bobby')
-    repeat = 'daily'
-    start_time = Time.now
-    event_name = 'event_name'
-
-    params = { event: { name: name, start: start_time, name: event_name } }
+    params = { event: { name: event_name, start: start_time, repeat: 'daily', users: user.id } }
 
     post "/events", params: params
-    assert Event.find_by(name: event_name).present?
+    new_event = Event.find_by(name: event_name)
 
+    assert new_event.present?
+    # to do test users
   end
 
-  test "updates event" do
-    put "/events/1", params: { article: { title: "can create", body: "article" } }
-    # should be created
-  end
+  # test "updates event" do
+  #
+  #   created_event = Event.create!
+  #   created_event.exists?
+  #
+  #   put "/events/#{created_event.id}", params: { article: { title: "can create", body: "article" } }
+  #   should be created
+  # end
 
   test "gets events" do
-    get "/events", params: { article: { title: "can create", body: "article" } }
-    # test "gets events within a certain time range" do
-    # end
-    #
-    # test "gets events for specific user" do
-    # end
+    created_event = Event.create!(name: event_name, start: start_time)
+
+    response = get "/events/#{created_event.id}"
+
+    assert response
   end
 
   test "destroys event" do
-    delete "/events/1", params: { article: { title: "can create", body: "article" } }
+    created_event = Event.create!(name: event_name, start: start_time)
+    response =  delete "/events/#{created_event.id}"
+    assert !Event.find_by(name: event_name).present?
   end
 end
