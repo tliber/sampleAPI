@@ -2,8 +2,16 @@ require 'test_helper'
 
 class EventsControllerTest < ActionDispatch::IntegrationTest
   test "creates event" do
-     post "/events", params: { article: { title: "can create", body: "article" } }
-     # should be created
+    user = User.create(name: 'Bobby')
+    repeat = 'daily'
+    start_time = Time.now
+    event_name = 'event_name'
+
+    params = { event: { name: name, start: start_time, name: event_name } }
+
+    post "/events", params: params
+    assert Event.find_by(name: event_name).present?
+
   end
 
   test "updates event" do

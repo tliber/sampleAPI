@@ -20,5 +20,6 @@ class Event < ApplicationRecord
   # Validations
   validates :start, presence: true
   validates :name, presence: true
-  validates :repeat, inclusion: { in: %w(daily weekly monthly quarterly) }
+  # validates :repeat, presence: false, inclusion: { in: %w(daily weekly monthly quarterly) }
+  # todo validate end time after start time
 end

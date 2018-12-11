@@ -1,6 +1,7 @@
 class EventsController < ApplicationController
   def create
-    puts 'Create'
+    event = Event.create!(permitted_params['event'])
+    render status: 200, message: 'save successfully'
   end
 
   def destroy
@@ -21,5 +22,6 @@ class EventsController < ApplicationController
 
   private
   def permitted_params
+    params.permit(:id, :event=> [:name, :start, :end, :repeat, :users => []])
   end
 end
