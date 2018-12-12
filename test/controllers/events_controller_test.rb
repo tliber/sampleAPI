@@ -8,7 +8,7 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
 
   test "creates event" do
     user = User.create(name: 'Bobby')
-    params = { event: { name: event_name, start: start_time, repeat: 'daily', users: user.id } }
+    params = { event: { name: event_name, start: start_time, repeat: repeat, users: user.id } }
 
     post "/events", params: params
     new_event = Event.find_by(name: event_name)
@@ -28,11 +28,11 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "gets events" do
-    created_event = Event.create!(name: event_name, start: start_time)
+    # TODO
+  end
 
-    response = get "/events/#{created_event.id}"
-
-    assert response
+  test "gets events at index" do
+    # TODO
   end
 
   test "destroys event" do
