@@ -27,12 +27,20 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
     assert Event.find(created_event.id).name == event_name2
   end
 
-  test "gets events" do
-    # TODO
+  test "gets event" do
+    created_event = Event.create!(name: event_name, start: start_time)
+
+    get "/events/#{created_event.id}"
+    assert JSON.parse(response.body)['id'] == created_event.id
   end
 
   test "gets events at index" do
-    # TODO
+    Event.create!(name: event_name, start: start_time)
+    Event.create!(name: event_name, start: start_time)
+
+    get "/events"
+
+    puts JSON.parse(response.body).count == Event.count
   end
 
   test "destroys event" do

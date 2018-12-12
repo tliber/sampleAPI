@@ -1,28 +1,30 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:destroy, :update, :show]
 
+
   def create
     Event.create!(permitted_params['event'])
-    render status: 200, message: 'save successfully'
+
+    render json: {status: 200, message: 'saved successfully'}
   end
 
   def destroy
     @event.destroy!
-    render status: 200, message: 'destoyed successfully'
+    render json: { status: 200, message: 'destroyed successfully' }
   end
 
   def update
     @event.update!(permitted_params['event'])
-    render status: 200, message: 'updated successfully'
+    render json: { status: 200, message: 'updated successfully' }
   end
 
   def show
-    render status: 200, json: @event
+    render json: @event
   end
 
   def index
     events = Event.all
-    render status: 200, json: events
+    render json: events
   end
 
   private
