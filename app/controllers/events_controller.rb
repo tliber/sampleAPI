@@ -1,11 +1,11 @@
 class EventsController < ApplicationController
   def create
-    event = Event.create!(permitted_params['event'])
+    Event.create!(permitted_params['event'])
     render status: 200, message: 'save successfully'
   end
 
   def destroy
-    event = Event.destroy(permitted_params['id'])
+    Event.destroy(permitted_params['id'])
     render status: 200, message: 'destoyed successfully'
   end
 
@@ -15,7 +15,13 @@ class EventsController < ApplicationController
   end
 
   def update
-    puts 'update'
+    event = Event.find(permitted_params['id'])
+    if event.present?
+      event.update!(permitted_params['event'])
+      render status: 200, message: 'updated successfully'
+    else
+      render status: 404, message: 'Event not found'
+    end
   end
 
   def show

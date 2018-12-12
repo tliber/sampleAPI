@@ -5,6 +5,7 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   event_name = 'event_name'
   repeat = 'daily'
 
+
   test "creates event" do
     user = User.create(name: 'Bobby')
     params = { event: { name: event_name, start: start_time, repeat: 'daily', users: user.id } }
@@ -16,14 +17,15 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
     # to do test users
   end
 
-  # test "updates event" do
-  #
-  #   created_event = Event.create!
-  #   created_event.exists?
-  #
-  #   put "/events/#{created_event.id}", params: { article: { title: "can create", body: "article" } }
-  #   should be created
-  # end
+  test "updates event" do
+    event_name2 = 'event_name2'
+
+    created_event = Event.create!(name: event_name, start: start_time)
+    assert Event.find_by(name: event_name).present?
+
+    put "/events/#{created_event.id}", params: { event: { name: event_name2 } }
+    assert Event.find(created_event.id).name == event_name2
+  end
 
   test "gets events" do
     created_event = Event.create!(name: event_name, start: start_time)
