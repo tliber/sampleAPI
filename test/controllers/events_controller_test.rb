@@ -39,7 +39,7 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
 
     get "/events"
 
-    puts JSON.parse(response.body).count == Event.count
+    assert JSON.parse(response.body).count == Event.count
   end
 
   test "destroys event" do

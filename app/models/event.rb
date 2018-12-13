@@ -34,12 +34,17 @@ class Event < ApplicationRecord
 
   # Scopes
   scope :on_date, -> (date=DateTime.now) do
+    date = date.to_datetime
     start_time = date.beginning_of_day
     end_time = date.end_of_day
 
-    where(start: start_time..end_time).
-        daily(start_time)
+    dates1 = where(start: start_time..end_time)
+    dates2 = recurring(start_time)
+
+    dates1 + dates2
   end
+
+
 
   # TODO refactor to do all in one query
   scope :recurring, -> (date=DateTime.now.beginning_of_day) do
@@ -50,7 +55,9 @@ class Event < ApplicationRecord
     events.concat monthly(date)
     events.concat quarterly(date)
 
-    events
+    if events.present?
+      where(id: [events.map(&:id)])
+    end
   end
 
 
@@ -62,10 +69,8 @@ class Event < ApplicationRecord
     weekly_events = where("repeat = ? AND start <= ?", WEEKLY, date)
 
     # TODO Sqlize
-    weekly_events_for_date = weekly_events.map do | we |
-      if we.start.strftime("%A") != date.strftime("%A")
-        we
-      end
+    weekly_events_for_date = weekly_events.select do | we |
+      we.start.strftime("%A") != date.strftime("%A")
     end
 
     weekly_events_for_date
@@ -75,10 +80,8 @@ class Event < ApplicationRecord
     monthly_events = where("repeat =? AND start <= ?", MONTHLY, date)
 
     # TODO Sqlize
-    monthly_events_for_date = monthly_events.map do | me |
-      if me.start.strftime("%d") == date.strftime("%d")
-        me
-      end
+    monthly_events_for_date = monthly_events.select do | me |
+      me.start.strftime("%d") == date.strftime("%d")
     end
 
     monthly_events_for_date
@@ -88,11 +91,8 @@ class Event < ApplicationRecord
     quarterly_events = where("repeat = ? AND start <= ?", QUARTERLY, date)
 
     # TODO Sqlize
-
-    quarterly_events_for_date = quarterly_events.map do | qe |
-      if quarterly_dates(date).include?(qe.start.strftime("%m %d"))
-        qe
-      end
+    quarterly_events_for_date = quarterly_events.select do | qe |
+      quarterly_dates(date).include?(qe.start.strftime("%m %d"))
     end
 
     quarterly_events_for_date

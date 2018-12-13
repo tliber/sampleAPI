@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/event.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/event.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/controllers/events_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/events_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/events.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/events.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/models/event_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/event_test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,18 +19,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sampleAPI@test_gets_events__sampleAPI.rcov" NAME="test_gets_events: sampleAPI Coverage Results" MODIFIED="1544638588571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
-    <SUITE FILE_PATH="coverage/sampleAPI@test_recurring__sampleAPI.rcov" NAME="test_recurring: sampleAPI Coverage Results" MODIFIED="1544725045521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
+    <SUITE FILE_PATH="coverage/sampleAPI@event.rcov" NAME="event Coverage Results" MODIFIED="1544726524863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="sampleAPI" />
+    <SUITE FILE_PATH="coverage/sampleAPI@test_recurring__sampleAPI.rcov" NAME="test_recurring: sampleAPI Coverage Results" MODIFIED="1544726559440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
     <SUITE FILE_PATH="coverage/sampleAPI@events_controller.rcov" NAME="events_controller Coverage Results" MODIFIED="1544557818590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="sampleAPI" />
     <SUITE FILE_PATH="coverage/sampleAPI@test_quarterly__sampleAPI.rcov" NAME="test_quarterly: sampleAPI Coverage Results" MODIFIED="1544653342661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
-    <SUITE FILE_PATH="coverage/sampleAPI@Development__sampleAPI.rcov" NAME="Development: sampleAPI Coverage Results" MODIFIED="1544478278874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
     <SUITE FILE_PATH="coverage/sampleAPI@test_weekly__sampleAPI.rcov" NAME="test_weekly: sampleAPI Coverage Results" MODIFIED="1544651473743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
-    <SUITE FILE_PATH="coverage/sampleAPI@Run_test__EventTest___sampleAPI.rcov" NAME="Run test 'EventTest': sampleAPI Coverage Results" MODIFIED="1544725050966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
+    <SUITE FILE_PATH="coverage/sampleAPI@Development__sampleAPI.rcov" NAME="Development: sampleAPI Coverage Results" MODIFIED="1544729782861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
+    <SUITE FILE_PATH="coverage/sampleAPI@Run_test__EventTest___sampleAPI.rcov" NAME="Run test 'EventTest': sampleAPI Coverage Results" MODIFIED="1544731192139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
     <SUITE FILE_PATH="coverage/sampleAPI@test_updates_event__sampleAPI.rcov" NAME="test_updates_event: sampleAPI Coverage Results" MODIFIED="1544558035221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
     <SUITE FILE_PATH="coverage/sampleAPI@test_creates_event__sampleAPI.rcov" NAME="test_creates_event: sampleAPI Coverage Results" MODIFIED="1544568879857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
-    <SUITE FILE_PATH="coverage/sampleAPI@Run_test__EventsControllerTest___sampleAPI.rcov" NAME="Run test 'EventsControllerTest': sampleAPI Coverage Results" MODIFIED="1544641197745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
+    <SUITE FILE_PATH="coverage/sampleAPI@Run_test__EventsControllerTest___sampleAPI.rcov" NAME="Run test 'EventsControllerTest': sampleAPI Coverage Results" MODIFIED="1544731234833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sampleAPI" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4599428">
+    <splitter split-orientation="horizontal" split-proportion="0.5628595">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -43,11 +43,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
-                  <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+                <state relative-caret-position="390">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -61,11 +61,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/models/event_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="50" selection-start-line="50" selection-end-line="50" />
+                <state relative-caret-position="270">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
                 </state>
               </provider>
             </entry>
@@ -77,8 +77,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/controllers/events_controller_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+                <state relative-caret-position="615">
+                  <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -91,8 +91,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/models/event.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="197">
-                  <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+                <state relative-caret-position="230">
+                  <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/activerecord-5.2.2/lib/active_record/relation/query_methods.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="157">
+                  <caret line="578" selection-start-line="578" selection-end-line="578" />
                 </state>
               </provider>
             </entry>
@@ -100,8 +109,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/activerecord-5.2.2/lib/active_record/relation/delegation.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="52" selection-start-line="52" selection-end-line="52" />
+                <state relative-caret-position="150">
+                  <caret line="70" selection-start-line="70" selection-end-line="70" />
                 </state>
               </provider>
             </entry>
@@ -122,7 +131,11 @@
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/fixtures/events.yml">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="191">
+                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -165,11 +178,11 @@
         <option value="$PROJECT_DIR$/db/migrate/20181211224807_add_repeat_to_event.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181210214800_create_events.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/test/controllers/events_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
-        <option value="$PROJECT_DIR$/test/fixtures/events.yml" />
-        <option value="$PROJECT_DIR$/app/models/event.rb" />
         <option value="$PROJECT_DIR$/test/models/event_test.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/events.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
+        <option value="$PROJECT_DIR$/test/controllers/events_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/models/event.rb" />
       </list>
     </option>
   </component>
@@ -250,7 +263,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -265,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'EventTest': sampleAPI">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'EventsControllerTest': sampleAPI">
     <configuration name="Development: sampleAPI" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="sampleAPI" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -359,6 +374,24 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="event" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="sampleAPI" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/models" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/models/event.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <configuration name="Run test 'EventTest': sampleAPI" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
@@ -481,43 +514,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_weekly: sampleAPI" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <module name="sampleAPI" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/models/event_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_weekly" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'EventsControllerTest': sampleAPI" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'EventTest': sampleAPI" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_recurring: sampleAPI" />
+        <item itemvalue="Ruby.event" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_quarterly: sampleAPI" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_weekly: sampleAPI" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'EventsControllerTest': sampleAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -535,44 +538,44 @@
       <workItem from="1544469750653" duration="1053000" />
       <workItem from="1544473318860" duration="494000" />
       <workItem from="1544478005789" duration="22988000" />
-      <workItem from="1544646734106" duration="7639000" />
+      <workItem from="1544646734106" duration="12512000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 03m 16s.xml">
+    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 42m 40s.xml">
       <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 04m 39s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 10m 31s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 10m 56s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 11m 22s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 11m 44s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 11m 56s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 17m 21s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_recurring__sampleAPI - 2018.12.13 at 10h 17m 26s.xml">
-      <configuration name="test_recurring: sampleAPI" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 10h 17m 32s.xml">
+    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 10h 42m 49s.xml">
       <configuration name="Run test 'EventTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 10h 43m 33s.xml">
+      <configuration name="Run test 'EventTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 10h 47m 09s.xml">
+      <configuration name="Run test 'EventTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 11h 35m 47s.xml">
+      <configuration name="Run test 'EventTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 11h 36m 17s.xml">
+      <configuration name="Run test 'EventTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventTest'__sampleAPI - 2018.12.13 at 11h 59m 53s.xml">
+      <configuration name="Run test 'EventTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventsControllerTest'__sampleAPI - 2018.12.13 at 12h 00m 05s.xml">
+      <configuration name="Run test 'EventsControllerTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventsControllerTest'__sampleAPI - 2018.12.13 at 12h 00m 30s.xml">
+      <configuration name="Run test 'EventsControllerTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'EventsControllerTest'__sampleAPI - 2018.12.13 at 12h 00m 36s.xml">
+      <configuration name="Run test 'EventsControllerTest': sampleAPI" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32174000" />
+    <option name="totallyTimeSpent" value="37047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,7 +590,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12947068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12947068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -600,7 +603,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24939759" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5626506" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -622,23 +625,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/event.rb</url>
-          <line>47</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
-          <line>48</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
-          <line>49</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
-          <line>50</line>
+          <line>55</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
+          <line>90</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
+          <line>79</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
+          <line>86</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
+          <line>97</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
+          <line>94</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/event.rb</url>
+          <line>83</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -809,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/events_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -829,19 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/events.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/activerecord-5.2.2/lib/active_record/relation.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -849,24 +847,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/activerecord-5.2.2/lib/active_record/relation/delegation.rb">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/events.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/activerecord-5.2.2/lib/active_record/relation/query_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <caret line="578" selection-start-line="578" selection-end-line="578" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/activerecord-5.2.2/lib/active_record/relation/delegation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/models/event_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/events_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/event.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        <state relative-caret-position="230">
+          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
         </state>
       </provider>
     </entry>
