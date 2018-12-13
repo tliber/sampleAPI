@@ -1,7 +1,6 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:destroy, :update, :show]
 
-
   def create
     Event.create!(permitted_params['event'])
 

@@ -25,7 +25,6 @@ class Event < ApplicationRecord
   # Associations
   has_and_belongs_to_many :users
 
-
   # Validations
   validates :start, presence: true
   validates :name, presence: true
@@ -43,8 +42,6 @@ class Event < ApplicationRecord
 
     dates1 + dates2
   end
-
-
 
   # TODO refactor to do all in one query
   scope :recurring, -> (date=DateTime.now.beginning_of_day) do
