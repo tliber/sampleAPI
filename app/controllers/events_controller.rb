@@ -24,15 +24,25 @@ class EventsController < ApplicationController
 
   def index
     events = Event.all
-    render json: events
+
+    if has_date_range?
+      events_in_date_range = events.within_date_range(start_date: permitted_params['start_date'], end_date: permitted_params['end_date'])
+      render json: events_in_date_range
+    else
+      render json: events
+    end
   end
 
   private
   def permitted_params
-    params.permit(:id, :event=> [:name, :start, :end, :repeat, :users => []])
+    params.permit(:id, :start_date, :end_date, :event=> [:name, :start, :end, :repeat, :users => []])
   end
 
   def set_event
     @event ||= Event.find(permitted_params['id'])
+  end
+
+  def has_date_range?
+    permitted_params['start_date'] || permitted_params['end_date']
   end
 end
